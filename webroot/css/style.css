@@ -1,0 +1,234 @@
+/* 
+    Document   : style.css
+    Created on : 22 déc. 2014, 23:38:13
+    Author     : Master
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.body-container {
+
+width: 925px;
+margin-top: 80px;
+margin-left: auto;
+margin-right: auto;
+}
+.register-container {
+width: 700px;
+margin-left: auto;
+margin-right: auto;
+}
+.login-container {
+width: 700px;
+margin-left: auto;
+margin-right: auto;
+}
+.body-container h3 {
+color: #1E7ED2;
+}
+.surveys-container {
+width: 700px;
+}
+.fixed-div{
+ 
+width: 265px;
+/* height: 196px; */
+float: right;
+position: fixed;
+/* position: absolute; */
+top: 192px;
+right: 121px;
+/* padding: 61px; */
+
+}
+.fixed-div .btn {
+
+font-size: 17px;
+padding: 14px 22px;
+width: 223px;
+}
+
+
+
+.surveys-list {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.surveys-list .survey-row {
+padding: 22px 20px;
+margin: 0;
+border-bottom: 1px solid #ebebeb;
+}
+.surveys-list .survey-row .row-left {
+float: left;
+width: 45px;
+text-align: center;
+}
+
+.surveys-list .survey-row .row-content {
+padding: 0 100px 0 60px;
+}
+
+.surveys-list .survey-row .row-content .info {
+display: block;
+color: #a1adb2;
+font-size: 12px;
+margin-top: 5px;
+}
+.surveys-list .survey-row .row-left {
+
+width: 76px;
+margin-right: 18px;
+}
+.surveys-list .survey-row .closed {
+background-color: #CC3333;
+
+}
+.surveys-list .survey-row .open {
+background-color: #33CC37;
+}
+.surveys-list .survey-row .row-left .number_of_vote {
+display: block;
+color: #FFFFFF;
+font-size: 13px;
+font-weight: 600;
+margin: 3px;
+}
+
+
+
+
+.glyphicon { margin-right:10px; }
+
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: -126px;
+  z-index: 1000;
+  display: none;
+  float: right;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  width: 254px;
+  height: 244px;
+}
+
+.login-container .panel-default {
+width: 400px;
+margin-left: auto;
+margin-right: auto;
+}
+.login-container input[type="text"],.login-container input[type="password"]{
+    height:40px;
+}
+.login-container .btn {
+padding: 23px 31px;
+font-size: 20px;
+line-height: 0;
+border-radius: 6px;
+}
+.login-container{
+
+margin-top: 138px;
+
+}
+.login-container .panel-heading{
+padding: 17px 15px;
+}
+.register-container .help-block{
+    color:#F40909;
+}
+.register-container .control-label{
+    padding-top: 0px;
+padding-bottom: 10PX;
+
+}
+
+.register-container .well {
+padding-top: 15px;
+padding-left: 36px;
+padding-right: 44px;
+}
+.register-container .btn {
+width: 445px;
+
+
+}
+.register-container .form-control{
+    height:29px;
+}
+form#changepswd {
+width: 407px;
+margin-left: auto;
+margin-right: auto;
+}
+form#changepswd .control-label {
+padding-top: 7px;
+margin-bottom: 18px;
+text-align: right;
+}
+.section-title{
+    margin-bottom:50px;
+}
+textarea.form-control{
+    height: 145px;
+    width: 419px;
+}
+#opArea{
+    height: 238px;
+    width: 265px;
+}
+
+tbody#sortable tr.highlight{
+  background:#f2f2f2;
+  border:1px dashed #212326;
+}
+#Qtable{
+    cursor: pointer;
+}
+textArea{
+      resize: none;
+}
+#question-form h2 ,#listQ h2{
+    /* background-color: #E0E0E0; */
+    padding: 6px;
+    color: #226CE0;
+    border-bottom: 1px solid #B8B8B8;
+    margin-top: 0px;
+}
+
+form#question-form ,#listQ{
+    border: 1px solid #C3C2C2;
+    padding: 7px;
+    background: #F3F3F3;
+    margin-bottom: 30px;
+}
+
+#manageSurveyActions a.btn{
+  font-size: 9px;
+    
+}
+.labelhint span.label{
+    font-size:9px;
+}
+.form-group.pushLeft {
+margin-left: 27px;
+}
+
+form#reponses-form {
+margin-left: 42px;
+}

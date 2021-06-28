@@ -1,0 +1,345 @@
+body
+{
+	background-color:#f8f8f8;
+	/*background-color:#f33030;*/
+}
+header
+{
+	width:1349px;
+	height:149px;
+	background-image:url(/Platform/images/header.png);
+	background-repeat:repeat;
+	position:relative;
+	top:-8px;
+	left:-8px;
+}
+.logo
+{
+	width:233px;
+	height:87px;	
+	position:absolute;
+	left:20px;
+	bottom:30px;		
+}
+.logo a{
+	background-image:url(../images/logo.png);	
+}
+.container{
+	position:relative;
+	/*border:2px black solid;*/
+	width:1333px;
+	height:1460px;	
+}
+.espace-inscription{
+	width:1190px;
+	height:520px;
+	position:absolute;	
+	bottom:10px;
+	left: 70px;
+	/*border: 1px black solid;	*/
+}
+.inscription-emplacement{
+	width:1090px;
+	height:400px;
+	position:relative;
+}
+
+.espace-inscription .inscrivez-vous{
+	width:510px;
+	height:380px;
+	position:absolute;
+	left:50px;
+	top:10px;
+	/*border: 1px blue solid;*/	
+}
+.inscrivez-vous{
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;	
+}
+.inscrivez-vous h1{
+	color:#fa4c05;	
+}
+.inscrivez-vous ul{
+	list-style:none;
+	
+	width: 480px;
+	padding: 10px 0 30px;
+	font-size: 18px;
+	color:#373535;
+	font-weight: 300;
+	line-height: 42px;
+	text-shadow: 1px 0 0 #333333 1px 1px 1px rgba(0,0,0,0.8);
+	padding-left:25px;
+}
+
+.form-inscription{
+	width:425px;
+	height:510px;
+	/*border: 1px green solid;	*/
+	position:absolute;
+	right:0px;	
+	top:0px;
+}
+#inscription{
+	/*border-radius: 15px;
+	box-shadow: 0px 0px 25px -3px rgba(0, 0, 0, 0.6) inset, 0px 0px 10px 5px rgba(200, 20, 20, 0.9);*/
+
+	
+	/*overflow:hidden;*/	
+	width:425px;
+	height:510px;
+	/*border:3px yellow solid;	*/
+	/* background-image:url(../images/inscription.png); */
+	position:relative;
+	background-color: #fff;
+	border: 1px solid #efefef;
+	box-shadow: #6F6868 0px 0px 10px;
+	position: relative;
+}
+#inscription h2{
+	color: #FA4C05;
+	font-size: 35px;
+	position: absolute;
+	left: 117px;
+	top: 20px;
+}
+#inscription .button-enr{
+	border:none;
+	width: 284px;
+	height:46px;
+	position:absolute;
+	left:0px;
+	bottom:10px;
+	opacity:0.9;	
+}
+#inscription .button-enr:hover{
+	opacity:1;
+}
+#inscription form{
+	width:300px;
+	height:350px;	
+	/*border:1px blue solid;*/
+	position:absolute;
+	left:70px;
+	top:136px;	
+}
+#inscription form table{
+	padding-bottom:10px;
+}
+/* page UserAdd pour continuer l'inscription ****************************************************** */
+#continuer-inscription{
+	width:400px;
+	height:419px;
+	position:absolute;	
+	left: 460px;
+	top:250px;
+	margin-bottom:30px;
+	/*border:1px black solid;*/
+}
+#continuer-inscription .continuer{
+	width: 390px;
+	height: 400px;
+	/*background-image:url(../images/Continuer-inscription.png);*/
+	background-color: #fff;
+	border: 1px solid #efefef;
+	box-shadow: #6F6868 0px 0px 10px;
+	position:relative;	
+}
+.continuer h2{
+	color: #FA4C05;
+	font-size: 36px;
+	position: absolute;
+	left: 40px;
+	top: -19px;
+}
+.continuer form{
+	width: 340px;
+	height: 340px;
+	/*border: 1px black solid;*/
+	position: absolute;
+	left: 35px;
+	top: 57px;
+}
+.continuer .terminer{
+	border:none;
+	width: 148px;
+	height:45px;
+	position:absolute;
+	left:5px;
+	bottom:0px;
+	opacity:0.9;
+}
+.continuer .terminer:hover{
+	opacity:1;	
+}
+.continuer .annuler{
+	border:none;
+	width: 150px;
+	height:47px;
+	position:absolute;
+	right:5px;
+	bottom:0px;
+	opacity:0.9;
+}
+.continuer .annuler:hover{
+	opacity:1;	
+}
+/*terminer-inscription : pour modifier le style des messages d'inscriptions*/
+.terminer-inscription{
+	color:#494343;
+	/*font-family:Arial, Helvetica, sans-serif;*/
+	font-size:20px;
+}
+/*********************************************************************************************** */
+#eleve , #prof{
+	width: 50px;
+	height:auto;	
+}
+
+.espace-connexion
+{
+	position:absolute;
+	right:20px;
+	top:80px;	
+}
+.connexion
+{
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:27px;
+	color:#fa4c05;
+	width:335px;
+	height:197px;
+	background-image:url(../images/connexion.png);
+	background-repeat:no-repeat;	
+}
+input, select{
+	
+	width: 246px;
+	height:35px;
+	font-size:18px;
+	border-radius:5px;	
+	border: 1px solid #9E9C9C;
+}
+#pseudo
+{
+	color:green;
+	position:absolute;
+	left:10px;
+	top:80px;
+	
+	border: 1px solid #9E9C9C;
+}
+#password
+{
+	color:green;
+	position:absolute;
+	left:10px;
+	top:130px;
+}
+.connecter{
+	position:absolute;
+	right:10px;
+	top:100px;
+	width: 50px;
+	height: 50px;	
+	border: none;
+}
+.sinscrire{
+	font-size:15px;
+	color:#867d7a;
+	position:absolute;
+	right:4px;
+	top:154px;	
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.barre{
+	position:absolute;
+	left:250px;
+	top:470px;	
+}
+
+/*articles*/
+
+.espace-articles{
+	position:absolute;	
+	left: 100px;
+	/*bottom: 71px;*/
+	top:530px;
+}
+.articles{
+	width:1120px;
+	height:300px;
+	/*border:1px blue solid;	*/
+}
+.articles h2{
+	font-family:segoe script;	
+	text-align:center;
+	color:#fa4c05;
+}
+.articles p{
+	margin-left:20px;
+	margin-right:20px;
+	font-family:Letter Gothic Std;	
+	font-weight:bold;
+}
+.article1{
+	width:320px;
+	height:270px;
+	/*border:1px green solid;*/
+	position:absolute;
+	left:20px;
+	top:10px;
+	box-shadow: 1px 2px 5px #888888;
+}
+.article2{
+	width:320px;
+	height:270px;
+	/*border:1px green solid;*/
+	position:absolute;
+	left:400px;
+	top:10px;
+	box-shadow: 1px 2px 5px #888888;
+}
+.article3{
+	width:320px;
+	height:270px;
+	/*border:1px green solid;*/
+	position:absolute;
+	left:780px;
+	top:10px;
+	box-shadow: 1px 2px 5px #888888;
+}
+
+
+
+footer{	
+	width:1349px;
+	height:50px;
+	margin-top:10px;
+	border-top:1px #c9c6c6 solid;
+	position:relative;
+	left:-8px;
+}
+footer .texte{
+	color:#fa4c05;
+	position:absolute;
+	left:500px;
+}
+.erreur {
+	position: absolute;
+	left: 17px;
+	bottom: 78px;
+	color: red;
+	font-size: 18px;
+}
+.erreur_connexion {
+	color: red;
+	position: absolute;
+	bottom: -13px;
+	left: 10px;
+	font-size: 15px;
+}

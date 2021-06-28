@@ -1,0 +1,299 @@
+body{
+	background-color:#f8f8f8;	
+}
+header
+{
+	width:1349px;
+	height:149px;
+	background-image:url(/Platform/images/header.png);
+	background-repeat:repeat;
+	position:relative;
+	top:-8px;
+	left:-8px;
+}
+.logo
+{
+	width:233px;
+	height:87px;	
+	position:absolute;
+	left:20px;
+	bottom:30px;		
+}
+.logo a{
+	background-image:url(../images/logo.png);	
+}
+.porte-profil{
+	position:absolute;
+	top:20px;
+	right: 58px;
+}
+.profil{
+	/*border:1px blue solid;*/
+	width: 150px;
+	height: 100px;
+	position:relative;
+}
+.profil .profil_img{
+	position:absolute;
+	top: 0px;
+	left: 9px;
+	border: 1px #939496 solid;
+	box-shadow: #6F6868 0px 0px 8px;
+}
+.profil h2{
+	position:absolute;
+	top:-15px;
+	left: 92px;
+}
+.profil .message-image{
+	position:absolute;
+	top: 32px;
+	right: 31px;
+}
+.profil .nb-message{
+	position:absolute;
+	top: 37px;
+	right: 21px;
+}
+.profil .deconnexion{
+	position:absolute;
+	top: 75px;
+	left: 9px;
+}
+
+input, select{
+	/*border:none;
+	box-shadow: 10px 10px 5px #888888;*/
+	width: 220px;
+	height:30px;
+	font-size:18px;
+	border-radius:5px;	
+	border: 1px solid #9E9C9C;
+}
+.buttons{
+	position:absolute;
+	bottom:-20px;
+	right:-50px;	
+}
+.modifier-button, .retour-button{
+	width:120px;
+	height:30px;
+	color:white;
+	background-color:#5b5b5b;
+	opacity:0.9;
+}
+.modifier-button:hover{
+	opacity:1;	
+}
+.retour-button:hover{
+	opacity:1;	
+}
+
+/*  modifier-container  */
+.porte-modifier{
+	width: 600px;
+	height:400px;
+	background-color: #fff;
+	border: 1px solid #efefef;
+	box-shadow: #6F6868 0px 0px 10px;
+	/*border:1px black solid;*/	
+	position: absolute;
+	left: 370px;
+	top: 170px;
+}
+.porte-modifier form{
+	width: 600px;
+	height:40px;
+	position:relative;
+	font-size:15px;
+}
+.porte-modifier form h2{
+	/*border:1px blue solid;*/
+	color:blue;
+	position:absolute;
+	right: 57px;
+	top: 165px;
+}
+.porte-modifier form img{
+	width: 140px;
+	height:140px;
+	/*border:1px blue solid;*/
+	border: 1px #939496 solid;
+	box-shadow: #6F6868 0px 0px 8px;
+	position:absolute;
+	right: 30px;
+	top: 35px;
+}
+.porte-modifier form table{
+	width: 500px;
+	height:350px;
+	/*9border:1px blue solid;*/
+	position:absolute;
+	left: 40px;
+	top: 26px;
+}
+/*   GESTION du Contenu de l'interface        */
+
+.porte-container{
+	/*display:none;*/
+	width:1100px;
+	height:1030px;	
+	/*border:1px black solid;*/
+	position:absolute;
+	left:100px;
+	top:170px;
+}
+.container{
+	width:1100px;
+	height:935px;
+	position:relative;
+	overflow:hidden;
+	background-color: #fff;
+	border: 1px solid #efefef;
+	box-shadow: #6F68A4 0px 0px 5px;
+}
+.menu{
+	/*border: 1px red solid;*/
+	width: 1100px;
+	height: 59px;
+	position: absolute;
+	top: -19px;
+	background-color: #fff;
+	border: 1px solid #efefef;
+	box-shadow: #6F6868 0px 0px 2px;
+}
+.menu ul#menu_horizontal{
+	width: 800px;
+	height: 50px;
+	list-style-type:none;		
+}
+.menu ul#menu_horizontal li{
+	margin:2px;
+	float:left;
+}
+.menu ul#menu_horizontal li a{
+	float:left;
+	width:140px;
+	height:30px;
+	color:black;
+	/*background-color:rgba(0,75,114,0.8);*/
+	/*background-color:#F63;*/
+	text-decoration:none;
+	text-align:center;
+	padding:4px;		
+	padding-top: 8px;
+}
+.menu ul#menu_horizontal li a:hover{
+	color:white;
+	/*background-color:rgba(0,75,114,0.8);*/
+	background-color:#F63;		
+}
+
+/*   Table Nouveauté   */
+
+.nouveaute{
+	position:absolute;
+	left:20px;
+	top:70px;	
+}
+/*table#table-nouveaute{
+	border:1px #0CF solid;	
+}*/
+#table-nouveaute{
+	border-right:1px green solid;	
+}
+/*.porte-profil-visité{
+	width: 800px;
+	height:auto;
+	position:absolute;
+	margin-left: 260px;
+	margin-right: auto;
+	margin-top: 20px;
+	background-color: #fff;
+	border: 1px solid #efefef;
+	box-shadow: #6F6868 0px 0px 2px;
+}*/
+.porte-profil-visité{
+	/*width: 800px;
+	height: 700px;*/
+	width:800px;
+	height:900px;
+	position:absolute;
+	top: 180px;
+	left: 280px;
+	bottom:30px;
+	background-color: #fff;
+	border: 1px solid #efefef;
+	box-shadow: #6F6868 0px 0px 2px;
+}
+.profil-visité{
+	/*width: 800px;
+	height: 700px;*/
+	width:auto;
+	height:auto;
+	margin:10px;
+	position:relative
+}
+.profil-visité .im-p{
+	position:absolute;
+	left: 40px;
+	top: 20px;	
+}
+.profil-visité .status{
+	position:absolute;
+	left: 120px;
+	top: 50px;
+	color: #05910B;
+}
+.profil-visité .pseudo{
+	position:absolute;
+	left: 120px;
+	top: 2px;
+	color: #666469;
+}
+.profil-visité .contribution{
+	position:absolute;
+	left: 102px;
+	top: 120px;
+	font-size:18px;
+}
+.profil-visité table{
+	position:absolute;
+	left: 102px;
+	top: 152px;
+}
+.profil-visité .liste_abonne{
+	color: #666469;
+}
+.porte_abonnee{
+	width:600px;
+	height:100px;
+	/*border:1px blue solid;*/
+	position:absolute;
+	top: 440px;
+	left: 100px;
+}
+.amis{
+	/*width:100px;
+	text-align:center;
+	font-size:12px;
+	display: inline-block;
+	border:1px solid #999;
+	position:absolute;
+	top:160px;*/
+	/*margin-left: 142px;
+	margin-top: 506px;*/
+	width:80px;
+	height:70px;
+	text-align:center;
+	display:inline-block;
+}
+.amis img{
+	border: 1px solid #efefef;
+	box-shadow: #6F6868 0px 0px 2px;
+	/*border:1px blue solid;
+	margin-right:10px;*/
+}
+.Ruser{
+	text-align:center;
+}
